@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GameController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
@@ -37,6 +38,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth'], 'as' =>'admin.'] , 
     Route::get('/edit/{id}', [HomeController::class, 'edit'])->name('user.edit');
     Route::put('/update/{id}', [HomeController::class, 'update'])->name('user.update');
     Route::delete('/delete/{id}', [HomeController::class, 'delete'])->name('user.delete');
+
+    Route::get('/game', [GameController::class, 'game'])->name('game');
+
 });
 
 
