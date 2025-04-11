@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 //
 //
 
-Route::get('/', [LoginController::class, 'index'])->name('login');
+Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::post('/login-proses', [LoginController::class, 'login_proses'])->name('login-proses');
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 
@@ -38,5 +38,6 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth'], 'as' =>'admin.'] , 
     Route::put('/update/{id}', [HomeController::class, 'update'])->name('user.update');
     Route::delete('/delete/{id}', [HomeController::class, 'delete'])->name('user.delete');
 });
+
 
 
