@@ -30,7 +30,7 @@
               <div class="inner">
                 <h3>9</h3>
 
-                <p>Pembeli Cheat Game</p>
+                <p>Pembeli Cheater Games</p>
               </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>

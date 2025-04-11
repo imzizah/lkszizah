@@ -39,8 +39,6 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth'], 'as' =>'admin.'] , 
     Route::put('/update/{id}', [HomeController::class, 'update'])->name('user.update');
     Route::delete('/delete/{id}', [HomeController::class, 'delete'])->name('user.delete');
 
-    Route::get('/game', [GameController::class, 'game'])->name('game');
-
 });
 
 

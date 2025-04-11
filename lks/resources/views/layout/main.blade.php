@@ -31,7 +31,31 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+    <script>
+    let timerInterval;
+Swal.fire({
+  title: "Auto close alert!",
+  html: "I will close in <b></b> milliseconds.",
+  timer: 2000,
+  timerProgressBar: true,
+  didOpen: () => {
+    Swal.showLoading();
+    const timer = Swal.getPopup().querySelector("b");
+    timerInterval = setInterval(() => {
+      timer.textContent = `${Swal.getTimerLeft()}`;
+    }, 100);
+  },
+  willClose: () => {
+    clearInterval(timerInterval);
+  }
+}).then((result) => {
+  /* Read more about handling dismissals below */
+  if (result.dismiss === Swal.DismissReason.timer) {
+    console.log("I was closed by the timer");
+  }
+});
+</script>
+    <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="loading" height="60" width="60">
   </div>
 
   <!-- Navbar -->
@@ -188,7 +212,7 @@
             </p>
           </a>
           <li class="nav-item">
-            <a href="{{ route('admin.game')}}" class="nav-link">
+            <a href="{{ route('admin.dashboard')}}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Game
