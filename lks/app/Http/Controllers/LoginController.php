@@ -19,6 +19,9 @@ class LoginController extends Controller
         $request->validate([
             'email' => 'required',
             'password' => 'required',
+        ],[
+            'email.required' => 'Email wajib diisi',
+            'password.required' => 'Password wajib diisi',
         ]);
 
         $data = [
@@ -27,10 +30,16 @@ class LoginController extends Controller
         ];
 
        if (Auth::attempt($data)) {
-            return redirect()->route('admin.dashboard');
-        } else {
-            return redirect()->route('login')->with('failed', 'Email atau Password Salah');
-       };
+        if(Auth::user()->role == 'users') {
+            return redirect('admin/dashboard');
+        } elseif (Auth::user()->role == 'admin') {
+            return redirect('admin/user');
+        } elseif (Auth::user()->role == 'developer') {
+            return redirect('admin/user');
+        }
+    } else {
+        return redirect('')->withErrors('Username dan password yang dimasukkan tidak sesuai')->withInput();
+    };
 
     }
 
