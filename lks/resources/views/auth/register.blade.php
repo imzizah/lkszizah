@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Register</title>
+  <title>LKS2025 | Register</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -19,7 +19,7 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="{{ route('login')}}" class="h1"><b>Admin</b>LTE</a>
+      <a href="{{ route('login')}}" class="h1"><b>web game</b>2025</a>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Halaman Register</p>
