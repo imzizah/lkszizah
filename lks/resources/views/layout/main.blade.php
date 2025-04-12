@@ -66,7 +66,7 @@ Swal.fire({
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -229,18 +229,18 @@ Swal.fire({
               </p>
             </a>
           </li>
-          <li class="nav-header">MULTI LEVEL EXAMPLE</li>
+          <li class="nav-header">ABOUT GAME</li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="fas fa-circle nav-icon"></i>
-              <p>Level 1</p>
+              <p>Win Rate</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-circle"></i>
               <p>
-                Level 1
+                Your Profil
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -248,14 +248,14 @@ Swal.fire({
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Level 2</p>
+                  <p>Adhistanaya</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>
-                    Level 2
+                    Medsos
                     <i class="right fas fa-angle-left"></i>
                   </p>
                 </a>
@@ -263,19 +263,19 @@ Swal.fire({
                   <li class="nav-item">
                     <a href="#" class="nav-link">
                       <i class="far fa-dot-circle nav-icon"></i>
-                      <p>Level 3</p>
+                      <p>Tiktok</p>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a href="#" class="nav-link">
                       <i class="far fa-dot-circle nav-icon"></i>
-                      <p>Level 3</p>
+                      <p>Instagram</p>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a href="#" class="nav-link">
                       <i class="far fa-dot-circle nav-icon"></i>
-                      <p>Level 3</p>
+                      <p>Twiter</p>
                     </a>
                   </li>
                 </ul>
@@ -283,7 +283,7 @@ Swal.fire({
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Level 2</p>
+                  <p>Contact</p>
                 </a>
               </li>
             </ul>
@@ -291,26 +291,26 @@ Swal.fire({
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="fas fa-circle nav-icon"></i>
-              <p>Level 1</p>
+              <p>Add Friend</p>
             </a>
           </li>
-          <li class="nav-header">LABELS</li>
+          <li class="nav-header">LEVEL GAME</li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-circle text-danger"></i>
-              <p class="text">Important</p>
+              <p class="text">Lv Hard</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-circle text-warning"></i>
-              <p>Warning</p>
+              <p>Lv Medium</p>
             </a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-circle text-info"></i>
-              <p>Informational</p>
+              <p>Lv Easy</p>
             </a>
           </li>
         </ul>
