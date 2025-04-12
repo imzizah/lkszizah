@@ -212,7 +212,7 @@ Swal.fire({
             </p>
           </a>
           <li class="nav-item">
-            <a href="lks/resources/views/game.index.blade.php" class="nav-link">
+            <a href="{{ route('game') }}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Game

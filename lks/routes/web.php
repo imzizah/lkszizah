@@ -41,5 +41,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth'], 'as' =>'admin.'] , 
 
 });
 
+Route::get('/game', [GameController::class, 'game'])->name('game');
+
 
 
