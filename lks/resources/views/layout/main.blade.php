@@ -220,6 +220,15 @@ Swal.fire({
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="{{ route('game') }}" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Rating
+                <span class="right badge badge-danger">New</span>
+              </p>
+            </a>
+          </li>
           <li class="nav-header">MULTI LEVEL EXAMPLE</li>
           <li class="nav-item">
             <a href="#" class="nav-link">
