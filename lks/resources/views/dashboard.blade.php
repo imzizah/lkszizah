@@ -412,7 +412,7 @@
           <div class="card-header border-0">
             <h3 class="card-title">
               <i class="fas fa-map-marker-alt mr-1"></i>
-              Game Luar
+              Your Account
             </h3>
             <!-- card tools -->
             <div class="card-tools">
@@ -425,25 +425,23 @@
             </div>
             <!-- /.card-tools -->
           </div>
-          <div class="card-body">
-            <div id="world-map" style="height: 250px; width: 100%;"></div>
-          </div>
+          
           <!-- /.card-body-->
           <div class="card-footer bg-transparent">
             <div class="row">
               <div class="col-4 text-center">
                 <div id="sparkline-1"></div>
-                <div class="text-white">Visitors</div>
+                <div class="text-white">Pengunjung</div>
               </div>
               <!-- ./col -->
               <div class="col-4 text-center">
                 <div id="sparkline-2"></div>
-                <div class="text-white">Online</div>
+                <div class="text-white">Aktivitas Online</div>
               </div>
               <!-- ./col -->
               <div class="col-4 text-center">
                 <div id="sparkline-3"></div>
-                <div class="text-white">Pemain</div>
+                <div class="text-white">Winner Game</div>
               </div>
               <!-- ./col -->
             </div>
