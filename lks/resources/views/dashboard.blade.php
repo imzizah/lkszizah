@@ -171,7 +171,7 @@
           <div class="card-header">
             <h3 class="card-title">
               <i class="fas fa-chart-pie mr-1"></i>
-              Sales
+              Win Rate
             </h3>
             <div class="card-tools">
               <ul class="nav nav-pills ml-auto">
@@ -224,14 +224,14 @@
               <!-- Message. Default to the left -->
               <div class="direct-chat-msg">
                 <div class="direct-chat-infos clearfix">
-                  <span class="direct-chat-name float-left">Alexander Pierce</span>
-                  <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
+                  <span class="direct-chat-name float-left">Adhistanaya Bias Isvara</span>
+                  <span class="direct-chat-timestamp float-right">11 April 11:00 am</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
+                <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="profil">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
-                  Is this template really for free? That's unbelievable!
+                  Bagaimana dengan web game yang kamu buat??
                 </div>
                 <!-- /.direct-chat-text -->
               </div>
@@ -240,14 +240,14 @@
               <!-- Message to the right -->
               <div class="direct-chat-msg right">
                 <div class="direct-chat-infos clearfix">
-                  <span class="direct-chat-name float-right">Sarah Bullock</span>
-                  <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
+                  <span class="direct-chat-name float-right">Me</span>
+                  <span class="direct-chat-timestamp float-left">11 April 11:49 am</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
+                <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="profil">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
-                  You better believe it!
+                  Akan ku ceritakan pengalaman ini kepadamu esok hari.
                 </div>
                 <!-- /.direct-chat-text -->
               </div>
@@ -256,14 +256,14 @@
               <!-- Message. Default to the left -->
               <div class="direct-chat-msg">
                 <div class="direct-chat-infos clearfix">
-                  <span class="direct-chat-name float-left">Alexander Pierce</span>
-                  <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
+                  <span class="direct-chat-name float-left">Adhistanaya Bias Isvara</span>
+                  <span class="direct-chat-timestamp float-right">11 April 11:50 am</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
+                <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="profil">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
-                  Working with AdminLTE on a great new app! Wanna join?
+                  Baiklahh, aku menunggu cerita darimu!!
                 </div>
                 <!-- /.direct-chat-text -->
               </div>
@@ -272,14 +272,14 @@
               <!-- Message to the right -->
               <div class="direct-chat-msg right">
                 <div class="direct-chat-infos clearfix">
-                  <span class="direct-chat-name float-right">Sarah Bullock</span>
-                  <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
+                  <span class="direct-chat-name float-right">Me</span>
+                  <span class="direct-chat-timestamp float-left">11 April 6:10 pm</span>
                 </div>
                 <!-- /.direct-chat-infos -->
-                <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
+                <img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="profil">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
-                  I would love to.
+                  Tunggu saja luv
                 </div>
                 <!-- /.direct-chat-text -->
               </div>
@@ -541,7 +541,7 @@
           <div class="card-header border-0">
             <h3 class="card-title">
               <i class="fas fa-map-marker-alt mr-1"></i>
-              Visitors
+              Game Luar
             </h3>
             <!-- card tools -->
             <div class="card-tools">
