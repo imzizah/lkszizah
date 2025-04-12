@@ -97,5 +97,6 @@
       Swal.fire('{{ $message }}');
     </script>
 @endif
+
 </body>
 </html>

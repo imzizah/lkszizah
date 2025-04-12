@@ -102,7 +102,7 @@
               <div class="inner">
                 <h3>12.00-14.00</h3>
 
-                <p>Waktu Online</p>
+                <p>Jam Online</p>
               </div>
               <div class="icon">
                 <i class="ion ion-clock"></i>
@@ -130,7 +130,7 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>emailmu@email.com</h3>
+                <h3>aya@email.com</h3>
 
                 <p>Email Pengguna</p>
               </div>
@@ -231,7 +231,7 @@
                 <img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="profil">
                 <!-- /.direct-chat-img -->
                 <div class="direct-chat-text">
-                  Bagaimana dengan web game yang kamu buat??
+                  Bagaimana dengan game yang kamu mainkan??
                 </div>
                 <!-- /.direct-chat-text -->
               </div>
@@ -293,14 +293,14 @@
               <ul class="contacts-list">
                 <li>
                   <a href="#">
-                    <img class="contacts-list-img" src="dist/img/user1-128x128.jpg" alt="User Avatar">
+                    <img class="contacts-list-img" src="dist/img/user1-128x128.jpg" alt="Profil">
 
                     <div class="contacts-list-info">
                       <span class="contacts-list-name">
-                        Count Dracula
-                        <small class="contacts-list-date float-right">2/28/2015</small>
+                        Gendis Maisarah
+                        <small class="contacts-list-date float-right">Today</small>
                       </span>
-                      <span class="contacts-list-msg">How have you been? I was...</span>
+                      <span class="contacts-list-msg">Jadine gimana besok jadi main...</span>
                     </div>
                     <!-- /.contacts-list-info -->
                   </a>
@@ -308,14 +308,14 @@
                 <!-- End Contact Item -->
                 <li>
                   <a href="#">
-                    <img class="contacts-list-img" src="dist/img/user7-128x128.jpg" alt="User Avatar">
+                    <img class="contacts-list-img" src="dist/img/user7-128x128.jpg" alt="Profil">
 
                     <div class="contacts-list-info">
                       <span class="contacts-list-name">
-                        Sarah Doe
-                        <small class="contacts-list-date float-right">2/23/2015</small>
+                        Attar Syah
+                        <small class="contacts-list-date float-right">Today</small>
                       </span>
-                      <span class="contacts-list-msg">I will be waiting for...</span>
+                      <span class="contacts-list-msg">Aku off dulu main gamenya ma...</span>
                     </div>
                     <!-- /.contacts-list-info -->
                   </a>
@@ -323,14 +323,14 @@
                 <!-- End Contact Item -->
                 <li>
                   <a href="#">
-                    <img class="contacts-list-img" src="dist/img/user3-128x128.jpg" alt="User Avatar">
+                    <img class="contacts-list-img" src="dist/img/user3-128x128.jpg" alt="Profil">
 
                     <div class="contacts-list-info">
                       <span class="contacts-list-name">
-                        Nadia Jolie
-                        <small class="contacts-list-date float-right">2/20/2015</small>
+                        Player 1
+                        <small class="contacts-list-date float-right">Today</small>
                       </span>
-                      <span class="contacts-list-msg">I'll call you back at...</span>
+                      <span class="contacts-list-msg">Ayo bermain lagi bersama ku!</span>
                     </div>
                     <!-- /.contacts-list-info -->
                   </a>
@@ -338,14 +338,14 @@
                 <!-- End Contact Item -->
                 <li>
                   <a href="#">
-                    <img class="contacts-list-img" src="dist/img/user5-128x128.jpg" alt="User Avatar">
+                    <img class="contacts-list-img" src="dist/img/user5-128x128.jpg" alt="Profil">
 
                     <div class="contacts-list-info">
                       <span class="contacts-list-name">
-                        Nora S. Vans
-                        <small class="contacts-list-date float-right">2/10/2015</small>
+                        Player 2
+                        <small class="contacts-list-date float-right">Yesterday</small>
                       </span>
-                      <span class="contacts-list-msg">Where is your new...</span>
+                      <span class="contacts-list-msg">Bisakah kamu mengajar...</span>
                     </div>
                     <!-- /.contacts-list-info -->
                   </a>
@@ -353,14 +353,14 @@
                 <!-- End Contact Item -->
                 <li>
                   <a href="#">
-                    <img class="contacts-list-img" src="dist/img/user6-128x128.jpg" alt="User Avatar">
+                    <img class="contacts-list-img" src="dist/img/user6-128x128.jpg" alt="Profil">
 
                     <div class="contacts-list-info">
                       <span class="contacts-list-name">
-                        John K.
-                        <small class="contacts-list-date float-right">1/27/2015</small>
+                        Ex Player
+                        <small class="contacts-list-date float-right">23/02/25</small>
                       </span>
-                      <span class="contacts-list-msg">Can I take a look at...</span>
+                      <span class="contacts-list-msg">Aku berhenti main game ini. Se...</span>
                     </div>
                     <!-- /.contacts-list-info -->
                   </a>
@@ -368,14 +368,14 @@
                 <!-- End Contact Item -->
                 <li>
                   <a href="#">
-                    <img class="contacts-list-img" src="dist/img/user8-128x128.jpg" alt="User Avatar">
+                    <img class="contacts-list-img" src="dist/img/user8-128x128.jpg" alt="Profil">
 
                     <div class="contacts-list-info">
                       <span class="contacts-list-name">
-                        Kenneth M.
-                        <small class="contacts-list-date float-right">1/4/2015</small>
+                        Ex Player
+                        <small class="contacts-list-date float-right">12/02/25</small>
                       </span>
-                      <span class="contacts-list-msg">Never mind I found...</span>
+                      <span class="contacts-list-msg">Aku berharap kita bertemu lgi d...</span>
                     </div>
                     <!-- /.contacts-list-info -->
                   </a>
@@ -443,7 +443,7 @@
               <!-- ./col -->
               <div class="col-4 text-center">
                 <div id="sparkline-3"></div>
-                <div class="text-white">Sales</div>
+                <div class="text-white">Pemain</div>
               </div>
               <!-- ./col -->
             </div>
